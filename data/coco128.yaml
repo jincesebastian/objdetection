@@ -1,0 +1,12 @@
+
+path: ../datasets/coco128  # dataset root dir
+train: images/train2017  # train images (relative to 'path') 128 images
+val: images/train2017  # val images (relative to 'path') 128 images
+
+# Classes
+nc: 6  # number of classes
+names: ['tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone']  # class names
+
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
